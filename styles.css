@@ -118,18 +118,14 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
-  margin: 50px;
+  margin: 0;
   padding-top: 50px;
   border-top: solid white 1px;
 }
 
 .fotos img{
-  margin: 40px;
   padding: 0;
-  width: 400px;
-  height: 400px;
-  object-fit: cover; 
-  border-radius: 400px;
+  width: 75%;
 }
 
 .fotos h1 {
@@ -253,9 +249,7 @@ html, body {
   }
 
   .fotos img {
-    margin: 20px;
-    width: 80vw;
-    height: 80vw;
+    width: 100vw;
   }
 
   .logo {
